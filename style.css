@@ -1,0 +1,38 @@
+.main{
+    text-align: center;
+}
+.header{
+    background-color: gray;
+    padding: 20px;
+}
+.middel{
+    display: grid;
+    grid-template-columns: 1fr  2fr;
+    background-color: #f3f0f0;
+
+}
+.middel>ul{
+    background-color: #777;
+    padding: 100px;
+    margin: 0px;
+}
+.footer{
+    background-color: gray;
+    margin: 0;
+    padding: 20px;
+}
+.article{
+    padding: 200px;
+    margin: 0px;
+    background-color: aliceblue;
+    border-right: 15px solid gray;
+}
+ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+ul>li{
+    list-style-type: none;
+    padding: 20px;
+}
